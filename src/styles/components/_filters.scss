@@ -1,0 +1,54 @@
+@import '../base/base';
+
+.ExpenseListFiltersWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+
+  section {
+    margin-bottom: 0.75 * $my-font-size;
+  }
+
+  input[type='text'],
+  select {
+    padding: 0.5 * $my-font-size;
+    font-size: 1.2 * $my-font-size;
+  }
+
+  input[name='txtFilterBy'],
+  select {
+    margin-right: 2 * $my-font-size;
+  }
+
+  .DateRangePickerInput {
+    border-radius: 0.33 * $my-font-size;
+  }
+
+  .DateInput .DateInput__display-text {
+    font-size: 1.2 * $my-font-size;
+  }
+}
+@media (max-width: 1279px) {
+  .ExpenseListFiltersWrapper {
+    display: flex;
+    flex-direction: column;
+
+    section {
+      label {
+        display: inline-block;
+        min-width: 6 * $my-font-size;
+      }
+
+      input[type='text'],
+      select {
+        font-size: $my-font-size;
+      }
+
+      .DateInput .DateInput__display-text {
+        font-size: $my-font-size;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import '../base/base';
+
+.routerWrapper header {
+  margin-top: 0.33 * $my-font-size;
+  margin-bottom: 1.33 * $my-font-size;
+}
+
+header nav ul {
+  background-color: lighten($app-bg-color, 20%);
+  border: solid 1px transparent;
+  border-radius: $my-font-size;
+  border-style: inset 1px;
+  float: right;
+  line-height: 1.5;
+  list-style: none;
+  margin-top: 0.33 * $my-font-size;
+  // padding-left: $my-font-size;
+  width: auto;
+}
+header nav ul li {
+  display: inline-block;
+  // margin-right: $my-font-size;
+}
+header a {
+  padding: 0.25 * $my-font-size 0.75 * $my-font-size;
+  text-decoration: none;
+}
+header .activeNavLink {
+  background-color: $txt-color;
+  color: $go-color;
+  border-radius: $my-font-size;
+}
+
+@media (max-width: 799px) {
+  header nav ul {
+    float: none;
+    margin: 0.5 * $my-font-size auto;
+  }
+}

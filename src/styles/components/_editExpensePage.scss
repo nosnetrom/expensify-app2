@@ -1,0 +1,16 @@
+@import '../base/base';
+
+.editExpenseRouteWrapper {
+  .btnDeleteItem {
+    background-color: $stop-color;
+    border: none;
+    border-radius: $my-font-size;
+    color: $txt-color;
+    display: block;
+    font-size: $my-font-size;
+    font-weight: 600;
+    margin: auto auto;
+    padding: 0.5 * $my-font-size;
+    width: 100%;
+  }
+}

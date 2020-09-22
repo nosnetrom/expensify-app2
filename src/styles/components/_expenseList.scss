@@ -1,0 +1,11 @@
+@import '../base/base';
+
+table.expenseListWrapper {
+  width: 90%;
+  margin: $my-font-size auto;
+  border-collapse: separate;
+}
+th {
+  background-color: $highlight-color;
+  text-shadow: 0.5px 0.5px 0 $app-bg-color;
+}

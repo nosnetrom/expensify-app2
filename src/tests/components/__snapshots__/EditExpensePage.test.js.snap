@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render EditExpensePage correctly 1`] = `
+<div
+  className="editExpenseRouteWrapper"
+>
+  <ExpenseForm
+    expense={
+      Object {
+        "amount": 749,
+        "createdAt": 1259200000,
+        "description": "Lunch",
+        "id": 3,
+        "note": "Chick-Fil-A",
+      }
+    }
+    onSubmit={[Function]}
+  />
+  <button
+    className="btnDeleteItem"
+    onClick={[Function]}
+    type="button"
+  >
+    Delete this expense
+  </button>
+</div>
+`;

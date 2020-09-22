@@ -1,0 +1,63 @@
+@import '../base/base';
+
+.expenseFormWrapper form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+
+  section {
+    width: 23%;
+    display: block;
+    label,
+    input {
+      display: block;
+      width: 100%;
+    }
+    label {
+      color: saturate(lighten($highlight-color, 10%), 10%);
+      font-weight: 600;
+      padding-bottom: 0.166 * $my-font-size;
+    }
+    input {
+      padding: 0.5 * $my-font-size;
+      font-size: 1.2 * $my-font-size;
+    }
+  }
+  #btnSubmit {
+    background-color: $highlight-color;
+    border: none;
+    border-radius: $my-font-size;
+    color: $txt-color;
+    font-size: $my-font-size;
+    font-weight: 600;
+    width: 100%;
+  }
+}
+
+.SingleDatePicker {
+  width: 100%;
+
+  .SingleDatePickerInput {
+    border-radius: 0.33 * $my-font-size;
+  }
+
+  .DateInput__display-text {
+    background-color: transparent !important;
+    color: initial;
+    font-size: 1.2 * $my-font-size;
+    line-height: initial;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1279px) {
+  .expenseFormWrapper form {
+    section {
+      width: 48%;
+      padding-bottom: 0.5 * $my-font-size;
+    }
+  }
+}

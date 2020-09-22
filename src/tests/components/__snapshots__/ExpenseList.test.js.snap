@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseList with expenses 1`] = `
+<table
+  className="expenseListWrapper"
+>
+  <thead>
+    <tr>
+      <th>
+        Description
+      </th>
+      <th>
+        Amount
+      </th>
+      <th>
+        Created On
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <ExpenseListItem
+      amount={899}
+      createdAt={1000000000}
+      description="USB stick"
+      id={1}
+      key="1"
+      note="16GB"
+    />
+    <ExpenseListItem
+      amount={2500}
+      createdAt={740800000}
+      description="Reeds"
+      id={2}
+      key="2"
+      note="Alto"
+    />
+    <ExpenseListItem
+      amount={749}
+      createdAt={1259200000}
+      description="Lunch"
+      id={3}
+      key="3"
+      note="Chick-Fil-A"
+    />
+  </tbody>
+</table>
+`;
+
+exports[`should render ExpenseList with no expenses 1`] = `
+<table
+  className="expenseListWrapper"
+>
+  <thead>
+    <tr>
+      <th>
+        Description
+      </th>
+      <th>
+        Amount
+      </th>
+      <th>
+        Created On
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        colspan="3"
+      >
+        No expenses found
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

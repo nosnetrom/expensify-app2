@@ -1,0 +1,99 @@
+$bg-color: #333333;
+$app-bg-color: rgba(43, 116, 165, 0.5);
+$txt-color: #fafafa;
+$link-color: rgb(247, 247, 94);
+$stop-color: #d10909;
+$go-color: #236123;
+$highlight-color: desaturate(darkorange, 20%);
+$my-font-size: 1rem;
+
+html * {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: $bg-color;
+  color: $txt-color;
+  display: flex;
+  font-size: $my-font-size;
+  height: 100vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  position: relative;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: $app-bg-color;
+  padding: 3vh 4vw;
+  margin: auto auto;
+  width: 80%;
+  height: 90%;
+  overflow-y: auto;
+  max-width: 64 * $my-font-size;
+}
+#app div {
+  display: relative;
+}
+h1,
+h2,
+h3 {
+  margin-bottom: 0.625 * $my-font-size;
+}
+h1 {
+  font-size: 2 * $my-font-size;
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.75);
+}
+h2 {
+  font-size: 1.5 * $my-font-size;
+}
+h3 {
+  font-size: 1.33 * $my-font-size;
+}
+p,
+li,
+td,
+input,
+select,
+option,
+label {
+  font-size: $my-font-size;
+}
+label {
+  padding-right: 0.33 * $my-font-size;
+}
+th {
+  font-size: $my-font-size * 1.2;
+  padding: 0.33rem;
+}
+a {
+  color: $link-color;
+  font-size: $my-font-size;
+  text-decoration: underline dotted;
+}
+button {
+  border-color: $txt-color;
+  cursor: pointer;
+  display: block;
+  margin: $my-font-size auto;
+  padding: 0.5 * $my-font-size 1 * $my-font-size;
+}
+button:active {
+  border-color: transparent;
+  box-shadow: -1px -1px 0.5 * $my-font-size rgba(0, 0, 0, 0.25);
+}
+button:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+input,
+select {
+  font-size: $my-font-size;
+  padding: 0.166 * $my-font-size 0.33 * $my-font-size;
+  border: none;
+  border-radius: 0.33 * $my-font-size;
+}

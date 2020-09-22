@@ -1,0 +1,8 @@
+@import './base/base'; /* Remove leading underscore and file extension from partials */
+
+@import './components/header';
+@import './components/filters';
+@import './components/expenseList';
+@import './components/expenseListItem';
+@import './components/expenseForm';
+@import './components/editExpensePage';

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListItem selected from expenses 1`] = `
+<tr
+  className="expenseListItemWrapper"
+>
+  <td
+    className="itemDescription"
+  >
+    <Link
+      to="/edit/1"
+    >
+      USB stick
+    </Link>
+  </td>
+  <td
+    className="itemAmount"
+  >
+    8.99
+  </td>
+  <td
+    className="itemCreatedAt"
+  >
+    12 Jan 1970
+  </td>
+</tr>
+`;

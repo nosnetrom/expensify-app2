@@ -1,0 +1,35 @@
+@import '../base/base';
+
+td {
+  vertical-align: top;
+  color: $bg-color;
+  background-color: $txt-color;
+  padding: 0.166rem 0.33rem;
+}
+.itemDescription {
+  font-weight: 600;
+  padding: 0.166 * $my-font-size 0.33 * $my-font-size;
+  a {
+    color: $bg-color;
+    text-decoration: none;
+    border-bottom: dotted 1px;
+  }
+}
+.itemAmount,
+.itemCreatedAt {
+  padding: 0.166 * $my-font-size 0.33 * $my-font-size;
+  text-align: right;
+}
+.btnDeleteItem {
+  background-color: $stop-color;
+  border: none;
+  border-radius: 50%;
+  color: $txt-color;
+  display: inline;
+  font-size: 0.67 * $my-font-size;
+  font-weight: 900;
+  margin: 0.25 * $my-font-size 0.5 * $my-font-size 0.166 * $my-font-size 0.166 *
+    $my-font-size;
+  padding: 0.166 * $my-font-size 0.33 * $my-font-size;
+  vertical-align: middle;
+}
