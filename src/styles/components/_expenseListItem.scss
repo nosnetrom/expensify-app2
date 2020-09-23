@@ -6,6 +6,10 @@ td {
   background-color: $txt-color;
   padding: 0.166rem 0.33rem;
 }
+td[colspan='3'] {
+  padding: 0.33 * $my-font-size;
+  text-align: center;
+}
 .itemDescription {
   font-weight: 600;
   padding: 0.166 * $my-font-size 0.33 * $my-font-size;

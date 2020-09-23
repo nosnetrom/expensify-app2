@@ -9,6 +9,10 @@
 
   section {
     margin-bottom: 0.75 * $my-font-size;
+    label {
+      display: block;
+      padding-bottom: 0.33 * $my-font-size;
+    }
   }
 
   input[type='text'],

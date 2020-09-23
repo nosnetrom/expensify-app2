@@ -34,10 +34,10 @@ body {
   width: 80%;
   height: 90%;
   overflow-y: auto;
-  max-width: 64 * $my-font-size;
+  max-width: 72 * $my-font-size;
 }
 #app div {
-  display: relative;
+  position: relative;
 }
 h1,
 h2,
