@@ -12,7 +12,7 @@ td[colspan='3'] {
 }
 .itemDescription {
   font-weight: 600;
-  padding: 0.166 * $my-font-size 0.33 * $my-font-size;
+  padding: 0.33 * $my-font-size;
   a {
     color: $bg-color;
     text-decoration: none;
@@ -21,7 +21,7 @@ td[colspan='3'] {
 }
 .itemAmount,
 .itemCreatedAt {
-  padding: 0.166 * $my-font-size 0.33 * $my-font-size;
+  padding: 0.33 * $my-font-size;
   text-align: right;
 }
 .btnDeleteItem {
