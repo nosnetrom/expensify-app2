@@ -3,22 +3,6 @@ import { Link } from 'react-router-dom';
 import moment from 'moment';
 import {amountProcessor, friendlyDate} from '../misc';
 
-// const amountProcessor = (fullAmt) => {
-//   let extension = '';
-//   const amt = parseInt(fullAmt) / 100;
-//   if (fullAmt % 100 == 0) {
-//     extension = '.00';
-//   } else if (fullAmt % 10 == 0) {
-//     extension = '0';
-//   }
-//   return `${amt}${extension}`;
-// };
-
-// const friendlyDate = (d) => {
-//   const fd = moment(d).format('DD MMM YYYY');
-//   return fd;
-// };
-
 // Export a stateless functional component
 //  - description, amount, createdAt
 const ExpenseListItem = ({ id, description, amount, createdAt }) => (
