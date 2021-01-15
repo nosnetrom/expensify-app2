@@ -16,7 +16,7 @@ exports[`should render ExpenseListItem selected from expenses 1`] = `
   <td
     className="itemAmount"
   >
-    8.99
+    $8.99
   </td>
   <td
     className="itemCreatedAt"
