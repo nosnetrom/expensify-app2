@@ -1,0 +1,8 @@
+@import '../base/base';
+
+.ExpenseSummaryWrapper em  {
+  color: $highlight-color;
+  font-size: inherit;
+  line-height: inherit;
+  margin: auto 0.33 * $my-font-size;
+}

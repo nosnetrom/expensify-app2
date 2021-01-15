@@ -10,7 +10,14 @@ export const ExpenseSummary = ({expenseCount, expenseTotal}) => {
     return (
         <div className="ExpenseSummaryWrapper">
             <h2>
-                Viewing {expenseCount} expense{expenseSuffix} totalling {expenseTotalFormatted}
+                Viewing 
+                <em>
+                    {expenseCount}
+                </em> 
+                expense{expenseSuffix} totalling 
+                <em>
+                    {expenseTotalFormatted}
+                </em>
             </h2>
         </div>
     )
